@@ -2,6 +2,7 @@
 #include <WiFiServer.h>
 #define PubNub_BASE_CLIENT WiFiClient
 #include <PubNub.h>
+#include "setup.h"
 #include "connection.h"
 
 
@@ -9,7 +10,7 @@
 void setup()
 {
    Serial.begin(9600);
-   PubNub.begin(pubkey, subkey);
+   PubNub.begin(pubNubPublishKey, pubNubSubscribeKey);
    setupWifiConnection();
    pinMode(D6, OUTPUT);
   
