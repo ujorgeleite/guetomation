@@ -1,7 +1,7 @@
 # guetomation
 
 
-The project has a simple structure and basically a loop to connect on wifi network after that lists messages from pubnub broker.
+The project has a simple structure, and basically a loop to connect on wifi network, after that lists messages from pubnub broker.
 
 
 # Setup Wifi Network
