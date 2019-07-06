@@ -7,7 +7,7 @@ WiFiClient cliente;
 
 void setupWifiConnection(){
   WiFi.mode(WIFI_STA);
-  WiFi.begin("JORGE", "995192978"); 
+  WiFi.begin("networkUser", "networkPassword"); 
   servidor.begin();
   delay(10000);
 }
